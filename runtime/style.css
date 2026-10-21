@@ -22,14 +22,14 @@ button { -webkit-tap-highlight-color: transparent; }
 .heading { margin-bottom: 21px; }
 .heading h1 { font-size: 32px; font-weight: 900; letter-spacing: -1px; margin: 0 0 6px; }
 .heading p { margin: 0; color: #aca7c4; font-size: 13px; }
-.hud { display: grid; grid-template-columns: 1.1fr 1fr 1fr 38px; gap: 10px; align-items: center; margin-bottom: 14px; }
+.hud { display: grid; grid-template-columns: 1.1fr 1fr 1fr 44px; gap: 10px; align-items: center; margin-bottom: 14px; }
 .stat { padding-left: 12px; border-left: 2px solid #38334f; }
 .stat:first-child { border-color: var(--mint); }
 .stat-label { display: block; color: #8e89a8; font-size: 10px; letter-spacing: 1px; margin-bottom: 1px; }
 .stat-value { font-size: 25px; font-weight: 850; line-height: 1.2; font-variant-numeric: tabular-nums; }
 .stat-value.score { color: var(--mint); }
 .stat-value small { font-size: 12px; color: #79748f; margin-left: 3px; }
-.pause { width: 36px; height: 36px; color: #c0bad6; background: #242136; border: 1px solid #3b3552; border-radius: 11px; font-size: 15px; }
+.pause { width: 44px; height: 44px; color: #c0bad6; background: #242136; border: 1px solid #3b3552; border-radius: 11px; font-size: 15px; }
 .pause:disabled { opacity: .35; cursor: default; }
 .arena { position: relative; overflow: hidden; border: 1px solid #39324f; border-radius: 22px; background: var(--background); box-shadow: 0 20px 80px #0005, inset 0 1px 0 #ffffff08; touch-action: none; }
 canvas { display: block; width: 100%; aspect-ratio: 420 / 480; }
@@ -61,4 +61,4 @@ canvas { display: block; width: 100%; aspect-ratio: 420 / 480; }
 .record { color: #ffd277; font-size: 10px; margin-bottom: 8px; letter-spacing: 1px; }
 @media (min-width: 700px) { .shell { padding-top: 34px; } }
 @media (max-height: 790px) { .shell { padding-top: 14px; } .brand { margin-bottom: 15px; } .heading { margin-bottom: 14px; } canvas { aspect-ratio: 420 / 440; } .heading h1 { font-size: 29px; } }
-@media (max-width: 370px) { .shell { padding: 14px; } .heading h1 { font-size: 28px; } .overlay { padding: 15px; } .rule { padding: 7px; } .credit { font-size: 7px; } }
+@media (max-width: 370px) { .shell { padding: 14px; } .heading h1 { font-size: 28px; } canvas { min-height: 440px; object-fit: contain; } .overlay { padding: 15px; } .overlay h2 { font-size: 24px; margin: 8px 0; } .hero-icon { font-size: 36px; margin: 8px 0 4px; } .result-score { font-size: 48px; } .rule { padding: 7px; } .credit { font-size: 7px; } }

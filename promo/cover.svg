@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1f193a"/><stop offset="1" stop-color="#101225"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#7f69de" stop-opacity=".38"/><stop offset="1" stop-color="#7f69de" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tv" x2=".8" y2="1"><stop stop-color="#b6a5ff"/><stop offset="1" stop-color="#8672e8"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#d2c4ff" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="933" cy="361" r="352" fill="url(#halo)"/>
+  <circle cx="935" cy="364" r="240" fill="none" stroke="#ad9bff" stroke-opacity=".1"/>
+  <circle cx="935" cy="364" r="282" fill="none" stroke="#ad9bff" stroke-opacity=".06"/>
+  <g font-family="Noto Sans CJK SC, sans-serif">
+    <rect x="74" y="65" width="35" height="35" rx="10" fill="#ad9bff"/>
+    <path d="M91.5 73V92M82 82.5H101M85 76L98 89M98 76L85 89" stroke="#17132d" stroke-width="3" stroke-linecap="round"/>
+    <text x="124" y="89" fill="#d0c5ec" font-size="17" font-weight="800" letter-spacing="5">PLAYROOM</text>
+    <rect x="76" y="138" width="113" height="36" rx="18" fill="#62efcf"/>
+    <text x="132" y="162" text-anchor="middle" fill="#152c2a" font-weight="800" font-size="17">30 秒挑战</text>
+    <text x="205" y="162" fill="#a99abb" font-size="16" letter-spacing="3">快乐从天而降</text>
+    <text x="68" y="298" fill="#f4eeff" font-size="112" font-weight="900" letter-spacing="-3">弹幕</text>
+    <text x="68" y="425" fill="#b7a5ff" font-size="112" font-weight="900" letter-spacing="-3">接接乐</text>
+    <text x="77" y="492" fill="#ded4ed" font-size="24" font-weight="500">左右拖动，接好弹幕，躲开剧透！</text>
+    <g transform="translate(77 539)">
+      <rect width="206" height="49" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#61517e"/>
+      <path d="M20 25H52M20 25L28 18M20 25L28 32M52 25L44 18M52 25L44 32" fill="none" stroke="#62efcf" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="67" y="32" fill="#d7cfe7" font-size="17">连击最高 ×3</text>
+    </g>
+    <text x="77" y="635" fill="#756988" font-size="11" letter-spacing="3">ARCADEKIT / ORIGINAL MINI GAME</text>
+    <g transform="translate(685 124) rotate(-9)">
+      <rect width="145" height="55" rx="17" fill="#173f3a" stroke="#62efcf" stroke-width="2"/>
+      <text x="72.5" y="37" fill="#7bffdd" font-size="27" text-anchor="middle" font-weight="800">好耶！</text>
+    </g>
+    <g transform="translate(1003 113) rotate(12)">
+      <rect width="127" height="61" rx="17" fill="#35304f" stroke="#ad9bff" stroke-width="2"/>
+      <text x="63.5" y="42" fill="#c6b9ff" font-size="33" text-anchor="middle" font-weight="900">666</text>
+    </g>
+    <g transform="translate(844 231) rotate(6)">
+      <rect width="205" height="61" rx="17" fill="#3e332b" stroke="#ffd277" stroke-width="2"/>
+      <text x="102.5" y="41" fill="#ffe09d" font-size="28" text-anchor="middle" font-weight="800">一键三连</text>
+    </g>
+    <g transform="translate(665 327) rotate(-13)">
+      <rect width="151" height="48" rx="14" fill="#3b2133" stroke="#ff839a" stroke-width="1.5" stroke-dasharray="5 5"/>
+      <text x="75.5" y="32" fill="#ff839a" font-size="21" text-anchor="middle" font-weight="700">剧透警告</text>
+      <circle cx="145" cy="-3" r="16" fill="#ff839a"/>
+      <path d="M139 -9L151 3M151 -9L139 3" stroke="#3b2133" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <ellipse cx="948" cy="588" rx="149" ry="23" fill="#080915" fill-opacity=".45"/>
+    <g transform="translate(946 442) rotate(7)">
+      <path d="M-32 -63L-56 -100M32 -63L56 -100" stroke="#ad9bff" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="-56" cy="-100" r="9" fill="#62efcf"/>
+      <circle cx="56" cy="-100" r="9" fill="#62efcf"/>
+      <rect x="-112" y="-68" width="224" height="164" rx="40" fill="#6350ae"/>
+      <rect x="-112" y="-75" width="224" height="157" rx="40" fill="url(#tv)"/>
+      <rect x="-88" y="-49" width="176" height="103" rx="25" fill="#27213e"/>
+      <path d="M-56 -4Q-43 -23 -30 -4M30 -4Q43 -23 56 -4" stroke="#e9e0ff" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <path d="M-16 17Q0 35 16 17" stroke="#62efcf" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <ellipse cx="-60" cy="22" rx="11" ry="5" fill="#ffb4d8" fill-opacity=".5"/>
+      <ellipse cx="60" cy="22" rx="11" ry="5" fill="#ffb4d8" fill-opacity=".5"/>
+      <rect x="-83" y="77" width="44" height="35" rx="13" fill="#ad9bff"/>
+      <rect x="39" y="77" width="44" height="35" rx="13" fill="#ad9bff"/>
+      <rect x="-137" y="-98" width="274" height="28" rx="14" fill="#62efcf"/>
+      <rect x="-120" y="-98" width="240" height="8" rx="4" fill="#b0ffeb"/>
+    </g>
+    <text x="1067" y="394" fill="#62efcf" font-size="28" font-weight="800" transform="rotate(12 1067 394)">+30</text>
+    <path d="M682 458V478M672 468H692M1118 539V559M1108 549H1128" stroke="#62efcf" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="753" cy="562" r="5" fill="#ad9bff"/>
+    <circle cx="1127" cy="245" r="4" fill="#62efcf"/>
+    <circle cx="900" cy="95" r="3" fill="#ffd277"/>
+  </g>
+</svg>
