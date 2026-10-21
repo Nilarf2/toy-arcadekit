@@ -5,6 +5,14 @@
 - **完整游戏**：根目录 `index.html`，《弹幕接接乐》。移动小电视接住好弹幕、避开剧透和卡顿，30 秒结算。
 - **模板示例**：`template/index.html`，《星星收集站》。展示同一运行时更换内容后的效果。
 
+## 在线试玩
+
+示例游戏已公开发布：
+
+- [BilibiliToy](https://www.bilibili.com/toy/danmaku-catcher/index.html)
+- [VibeHub](https://gamesvibe.app/play/nn822xa-KVbvdIjtwD7oS)
+
+
 ## 本地运行
 
 可以直接双击 HTML。也可以在仓库目录启动静态服务：
@@ -66,7 +74,7 @@ node --check content/game-config.js
 node --check template/config.js
 ```
 
-本仓库不配置测试框架、全量门禁或 CI。GitHub 仓库用于用户审阅；Bilibili Toy 和 VibeHub 发布在用户试玩确认后另行进行。
+本仓库不配置测试框架、全量门禁或 CI。示例游戏已上线 BilibiliToy 与 VibeHub。
 
 ## 许可
 
